@@ -4,7 +4,7 @@ SCRIPT=$(realpath $0)
 SCRIPT_DIR=$(dirname $SCRIPT)
 
 LOG_DIR=$SCRIPT_DIR/log
-mdkir -p $LOG_DIR
+mkdir -p $LOG_DIR
 
 encode() {
   INPUT_PATH=$1
